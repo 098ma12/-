@@ -1,7 +1,7 @@
-myTotal = 0;	// 現在の合計値
-myInput = "";	// 現在入力している値
-myCalc = "+";	// 合計と入力値の演算子
-myFlg = 1;	// １回前に入力したもの 0:数字 1:演算子
+let myTotal = 0;	// 現在の合計値
+let myInput = "";	// 現在入力している値
+let myCalc = "+";	// 合計と入力値の演算子
+let myFlg = 1;	// １回前に入力したもの 0:数字 1:演算子
  	
 function myValue(myData){	// 0～9または小数点ボタンを押した
 myFlg = 0;	// １回前に入力したものは数値
